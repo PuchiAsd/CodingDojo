@@ -1,0 +1,139 @@
+body{
+    width: auto;
+    margin: 0;
+    background-color: #eaeaea;
+    font-family: Arial, sans-serif;
+}
+.card {
+    /* tamaño card */
+    width: auto;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin: 5px;
+}
+.card .header {
+    background-color: #00acc1;
+    height: 100px;
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin: -50px 35px 0px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.card h1{
+    color: black;
+}
+.card .location{
+    color: grey;
+}
+.card .body{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 25px;
+}
+.card .footer{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 25px;
+    color: #009eff;
+}
+
+button{
+    background-color: #F5F5F5;
+    border:0px;
+    padding: 10px 12px;
+    border-radius: 4px;
+}
+p{
+    color: #a09c9c;
+}
+.margin{
+    margin: 0px;
+}
+/* SEGUNDA PARTE */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+.navbar a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+.navbar .nav-links-container{
+    display: flex;
+}
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+}
+.navbar .nav-links a {
+    margin: 0 10px;
+}
+.navbar .logout {
+    background-color: #00bfff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+/* FIN NAVBAR */
+
+main{
+    margin-left: 15px;
+    margin-right: 20px;
+    margin-bottom: 15px;
+    display: flex;
+}
+.section-right{
+    margin-right: 100px;
+}
+.section-left{
+    min-width: fit-content;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+.col-1{
+    flex: 10%;
+}
+.col-2{
+    flex: 20%;
+}
+.col-6{
+    flex: 50%;
+}
+.col-12{
+    flex: 100%;
+}
+.mb-15{
+    margin-bottom: 15px;
+}
+.check{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.solicitudConexion img{
+    width: 20px;
+    height: 20px;
+    border: 2px solid #00bfff;
+    border-radius: 3px;
+}

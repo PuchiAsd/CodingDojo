@@ -1,0 +1,52 @@
+body{
+    background-color: #eaeaea;
+    font-family: Arial, sans-serif;
+}
+.card {
+    /* tamaño card */
+    /* width: 400px; */
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.card .header {
+    background-color: #00acc1;
+    height: 100px;
+}
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    margin: -50px 35px 0px;
+    display: block;
+    position: relative;
+    z-index: 1;
+}
+
+.card h1{
+    color: black;
+}
+.card .location{
+    color: grey;
+}
+.card .body{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 25px;
+}
+.card .footer{
+    margin-left: 35px;
+    margin-right: 35px;
+    margin-bottom: 25px;
+}
+button{
+    background-color: #F5F5F5;
+    border:0px;
+    padding: 10px 12px;
+    border-radius: 4px;
+}
+p{
+    color: #a09c9c;
+}

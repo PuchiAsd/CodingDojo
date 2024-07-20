@@ -1,0 +1,54 @@
+.container{
+    width: 950px;
+    margin: 0 auto;
+    padding: 12px;
+}
+img{
+    width: 230px;
+}
+
+.kuromi{
+    width: 219px;
+}
+
+.div1{
+    background-color: darksalmon;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.div2 {
+    background-color: aquamarine;
+    padding: 10px 50px;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    gap: 60px;
+}
+
+.div2 > * {
+    flex: 1 1 auto; 
+}
+
+
+.div3{
+    background-color: lightgreen;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+.footer{
+    background-color: darkcyan;
+    padding: 1px;
+}
+
+h3{
+    text-align: center;
+}
+
+.img-container{
+    display: inline-block;
+}
