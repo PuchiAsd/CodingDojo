@@ -1,0 +1,64 @@
+header{
+    display: flex;
+    border: solid black 3px;
+    padding: 10px 10px;
+    background-color: rgb(128, 128, 128);
+    justify-content: space-between;
+    align-items: center;
+}
+
+#btnLogin{
+    width: 129px;
+    height: 49px;
+    background-color: #1E90FF;
+    color: white;
+
+}
+
+.buscador {
+    width: 63%;
+}
+main{
+    display:flex;
+}
+
+.left{
+    flex: 2;
+}
+
+.rigth{
+    flex:2;
+    margin: 10px 10px;
+    border: solid black 2px;
+    height: 100px;
+    padding: 10px 10px;
+}
+
+section  {
+    margin: 10px 10px;
+    border: solid black 2px;
+    padding: 10px 10px;
+}
+
+.sectionRigth {
+    margin: 10px 10px;
+    border: none;
+    padding: 10px 10px;
+}
+
+.definicion {
+    width: 250px;
+    height: 29px;
+    background-color: #008000;
+    color: white;
+}
+
+#mg_gato{
+    background-color: #FFFFCC;   
+    border-radius: 5px;
+}
+
+#mg_perro{
+    background-color: #FFFFCC;  
+    border-radius: 5px; 
+}
